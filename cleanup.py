@@ -1,6 +1,9 @@
 import xml.etree.ElementTree as ET
 import os
 
+# Diese Funktion liest die XML-Datei ein und extrahiert den Text
+# Sollte nicht mehr benötigt werden
+
 
 def clean_bible_text(xml_file):
     tree = ET.parse(xml_file)
